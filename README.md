@@ -1,12 +1,18 @@
 # GoScroll
 Tiny and Powerful Library for change place of the scroll and focus on element.
 
-[![Coverage Status](https://coveralls.io/repos/github/BaseMax/GoScroll/badge.svg?branch=master)](https://coveralls.io/github/BaseMax/GoScroll?branch=master)
+![GoScroll.min.js File Size](https://img.shields.io/badge/Compressed%20Size-1.4%20KB-blue.svg) ![GoScroll.min.js Validation Code](https://img.shields.io/badge/Validation%20Code-No%20Error-green.svg)
 
 
+## Features 
 
-## Arguments : 
+  - Fast
+  - Compact
+  - No dependencies
+  - With animation and effects
 
+
+## Arguments 
 
 | Argument Name  | Goal |
 | ------------- | ------------- | 
@@ -16,24 +22,34 @@ Tiny and Powerful Library for change place of the scroll and focus on element.
 | data-scroll-to  | Go to a position (pixel)  |    
 
 
-## Samples :
+## Samples
 
-To view the full details, run the example.html file.
+To view the full details, run the [example.html](https://github.com/BaseMax/GoScroll/blob/master/example.html) file.
 
-#### data-scroll-go :
+#### `data-scroll-go`
 ```
 <button data-scroll-go="#id_name">Go</button>
 <button data-scroll-go=".class_name">Go</button>
+```
+#### `data-scroll-offset`
+```
 <button data-scroll-offset="150" data-scroll-go=".class_name">Go</button>
+```
+#### `data-scroll-time`
+```
 <button data-scroll-time="5000" data-scroll-go=".class_name">Go</button>
 ```
-#### data-scroll-to :
+#### `data-scroll-to`
 ```
 <button data-scroll-to="280">Go</button>
 ```
-#### onclick :
+#### `onclick`
 ```
 <button data-scroll-go="span.class_name" onclick="goscroll.go(this)">
 <button data-scroll-to="480" onclick="goscroll.goto(this)">
 ```
 
+
+# License
+
+GoScroll is licensed under the [GNU General Public License](https://github.com/BaseMax/GoScroll/blob/master/LICENSE).
