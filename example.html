@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<title>Example GoScroll.js</title>
+		<meta charset="utf-8">
+		<script type="text/javascript" src="GoScroll.js"></script>
+	</head>
+	<body>
+		<h1>Example GoScroll.js</h1>
+		<br><br>
+		<button data-scroll-go="section">
+			<h2>Go Middle</h2>
+		</button>
+		<br><br>
+		<header style="height: 800px;background-color: green;color: black;font-size: 200px;text-align: center;">
+			here is header
+		</header>
+		<br><br>
+		<button data-scroll-go="footer">
+			<h2>Go Footer</h2>
+		</button>
+		<br><br>
+		<section style="height: 800px;background-color: blue;color: black;font-size: 200px;text-align: center;">
+			here is middle
+		</section>
+		<br><br>
+		<footer style="height: 800px;background-color: yellow;color: black;font-size: 200px;text-align: center;">
+			here is footer
+		</footer>
+		<br><br>
+		<button data-scroll-go="header">
+			<h2>Go Header</h2>
+		</button>
+		<br><br>
+		<button data-scroll-offset="-800" data-scroll-go="header">
+			<h2>Go Header with custom offset</h2>
+			<h3>(header position - (-800) = (header position + 800)</h3>
+		</button>
+		<br><br>
+		<button data-scroll-to="280">
+			<h2>Go 280px</h2>
+		</button>
+		<br><br>
+		<button data-scroll-to="480" onclick="goscroll.goto(this)">
+			<h2>Go 480 with onclick</h2>
+		</button>
+		<br><br>
+	</body>
+</html>
