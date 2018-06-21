@@ -1,6 +1,8 @@
 # GoScroll
 Tiny and Powerful Library for change place of the scroll and focus on element.
 
+[![Coverage Status](https://coveralls.io/repos/github/BaseMax/GoScroll/badge.svg?branch=master)](https://coveralls.io/github/BaseMax/GoScroll?branch=master)
+
 
 
 ## Arguments : 
