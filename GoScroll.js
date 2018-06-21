@@ -40,13 +40,18 @@
 			c = e - n,
 			l = function(o)
 			{
-				var e = animate_easeInOut(o += 20, n, c, t);
-				document.documentElement.scrollTop = e, document.body.scrollTop = e, o < t && setTimeout(function()
+				var e = animate_easeInOut(o += 20,n,c,t);
+				document.documentElement.scrollTop = e;
+				document.body.scrollTop = e;
+				if(o < t)
 				{
-					l(o)
-				},20)
+					setTimeout(function()
+					{
+						l(o);
+					},20);
+				}
 			};
-		l(0)
+		l(0);
 	};
 	/**
 	* @function animate_easeInOut
@@ -57,7 +62,7 @@
 	**/
 	var animate_easeInOut=function(o,e,t,n)
 	{
-		return (o /= n / 2) < 1 ? t / 2 * o * o + e : (o -= 1, -t / 2 * (o * (o - 2) - 1) + e)
+		return (o /= n / 2) < 1 ? t / 2 * o * o + e : (o -= 1,-t / 2 * (o * (o - 2) - 1) + e);
 	};
 	/**
 	* @function go_rand
@@ -65,11 +70,12 @@
 	* @goal : Begin from here and change scroll to $rand place offset
 	*
 	* @return void
-	**/
+	**/	
 	var go_rand=function(from)
 	{
 		//soon
-	}
+		return;
+	};
 	/**
 	* @function go_to
 	*
@@ -150,27 +156,28 @@
 	**/
 	window.addEventListener("load",function()
 	{
-		var data_goscroll = document.querySelectorAll("[data-scroll-go]");
+		var data_goscroll;
+		data_goscroll = document.querySelectorAll("[data-scroll-go]");
 		data_goscroll.forEach(function(item)
 		{
-			if(item.onclick == null)//onclick not exists
+			if(item.onclick === null)//onclick not exists
 			{
 				item.onclick=function()
 				{
 					window.goscroll.go(this);
-				}
+				};
 			}
 		});
 		//////////////////////////////////////////////////////////////////
-		var data_goscroll = document.querySelectorAll("[data-scroll-to]");
+		data_goscroll = document.querySelectorAll("[data-scroll-to]");
 		data_goscroll.forEach(function(item)
 		{
-			if(item.onclick == null)//onclick not exists
+			if(item.onclick === null)//onclick not exists
 			{
 				item.onclick=function()
 				{
 					window.goscroll.goto(this);
-				}
+				};
 			}
 		});
 		//////////////////////////////////////////////////////////////////
