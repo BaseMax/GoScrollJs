@@ -24,7 +24,7 @@ Tiny and Powerful Library for change place of the scroll and focus on element.
 
 ## Samples
 
-To view the full details, run the [Example.html](https://github.com/BaseMax/GoScroll/blob/master/Example.html) file.
+To view the full details, run the [Example.html](https://github.com/BaseMax/GoScrollJs/blob/master/Example.html) file.
 
 #### `data-scroll-go`
 ```
@@ -52,4 +52,4 @@ To view the full details, run the [Example.html](https://github.com/BaseMax/GoSc
 
 # License
 
-GoScroll is licensed under the [GNU General Public License](https://github.com/BaseMax/GoScroll/blob/master/LICENSE).
+GoScroll is licensed under the [GNU General Public License](https://github.com/BaseMax/GoScrollJs/blob/master/LICENSE).
