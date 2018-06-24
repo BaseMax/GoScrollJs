@@ -4,8 +4,8 @@
 * @Version : 1.0
 * @Programmer : Max
 * @Date : 2018-06-21
-* @Released under : https://github.com/BaseMax/GoScroll/blob/master/LICENSE
-* @Repository : https://github.com/BaseMax/GoScroll
+* @Released under : https://github.com/BaseMax/GoScrollJs/blob/master/LICENSE
+* @Repository : https://github.com/BaseMax/GoScrollJs
 *
 **/
 ;(function(window,document)
