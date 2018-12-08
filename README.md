@@ -15,7 +15,7 @@ Tiny and Powerful Library for change place of the scroll and focus on element.
 ## Arguments 
 
 | Argument Name  | Goal |
-| ------------- | ------------- | 
+| -------------- | ---- | 
 | data-scroll-go  	| Go to a element  |     
 | data-scroll-offset  | Set Custom Offset (default : 50)  |
 | data-scroll-time  | Set Custom Time (default : 500)  |           
