@@ -1,5 +1,7 @@
 # GoScroll
 
+## GoScrollJs
+
 Tiny and Powerful Library for change place of the scroll and focus on element.
 
 ![GoScroll.min.js File Size](https://img.shields.io/badge/Compressed%20Size-1.4%20KB-blue.svg) ![GoScroll.min.js Validation Code](https://img.shields.io/badge/Validation%20Code-No%20Error-green.svg)
